@@ -1,0 +1,5 @@
+title: File Descrambler/Scrambler
+contributors: miguel jdagres mcl209 cwj91
+type: tool
+repo: https://github.com/theguyontheleft/File-Scrambler-Descrambler.
+description: The scrambler converts plain text files to scrambled bin files and the descrambler converts bin files to plain text files.
