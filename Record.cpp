@@ -6,7 +6,6 @@
 
 using namespace std;
 
-//what if size if 0?
 Record::Record( int position, char *record, int size )
 {
     if( size > 0 )
@@ -71,7 +70,7 @@ const Record &Record::operator=( const Record &rhs )
 
         for( int i = 0; i < size; i++ )
         {
-            this->record[i] = rhs.record[i];	//possibly this->record[i] = rhs.record[i]
+            this->record[i] = rhs.record[i];	
         }
     }
     return *this;
